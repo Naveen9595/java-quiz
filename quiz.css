@@ -19,7 +19,7 @@
 }
 input.opt
 {
-float-left;
+float: left;
 font-size: 30px;
 margin-left: 70px;
 }
@@ -36,15 +36,27 @@ margin-left: 70px;
 .foot
 {
 
-    background-color: red;
+	 background-color: red;
     width: 100%;
 	height: 100px;
 	color:white;
 	font-size: 30px;
 	clear: both;
 }
-#scores
-{
-	visibility: hidden;
-	color:white;
+#comment{
+
+	text-align: center;
+	padding-top: 20px;
+	
+}
+.submit{
+	margin:20px 0 20px 200px;
+	
+	cursor: pointer;
+
+}
+.sub{
+	border:1px solid red;
+	padding:5px;
+	border-radius: 5px;
 }
